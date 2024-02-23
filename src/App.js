@@ -7,6 +7,7 @@ import StarRating from './components/start-rating';
 import ImageSlider from './components/image-slider';
 import LoadMoreData from './components/load-more-data';
 import TreeView from './components/tree-view';
+import QRCodeGenerator from './components/qr-code-generator';
 
 function App() {
   return (
@@ -27,7 +28,10 @@ function App() {
         {/* <LoadMoreData /> */}
 
         {/* Tree View components */}
-        <TreeView menus = {menus}/>
+        {/* <TreeView menus = {menus}/> */}
+
+        {/* QR Code Generator component */}
+        <QRCodeGenerator />
 
     </div>
   );
