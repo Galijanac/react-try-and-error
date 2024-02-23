@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import menus from './components/tree-view/data.js'
 import Accordian from './components/accordian';
 import RandomColor from './components/random-color';
 import StarRating from './components/start-rating';
 import ImageSlider from './components/image-slider';
 import LoadMoreData from './components/load-more-data';
+import TreeView from './components/tree-view';
 
 function App() {
   return (
@@ -22,7 +24,10 @@ function App() {
         {/* <ImageSlider url={"https://picsum.photos/v2/list"} limit = {"10"} page = {"1"}/> */}
 
         {/* Load More product components  */}
-        <LoadMoreData />
+        {/* <LoadMoreData /> */}
+
+        {/* Tree View components */}
+        <TreeView menus = {menus}/>
 
     </div>
   );
