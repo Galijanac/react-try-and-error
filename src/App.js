@@ -17,6 +17,9 @@ import SearchAutoComplete from './components/search-autocomplete-with-api/index.
 import TicTacToe from './components/tic-tac-toe/index.jsx';
 import FeatureFlagGlobalState from './components/feature-flag/context/index.jsx';
 import FeatureFlags from './components/feature-flag/index.jsx';
+import UseFetchHookTest from './components/use-fetch/test.jsx';
+import UseOnClickOutsideTest from './components/use-outside-click/test.jsx';
+import UseWindowResizeTest from './components/use-window-resize/test.jsx';
 
 function App() {
   return (
@@ -64,11 +67,18 @@ function App() {
         {/* <TicTacToe /> */}
 
         {/* Feature Flag implementation */}
-        <FeatureFlagGlobalState>
+        {/* <FeatureFlagGlobalState>
           <FeatureFlags />
-        </FeatureFlagGlobalState>
+        </FeatureFlagGlobalState> */}
 
+        {/* Use Fetch Custom Hook */}
+        {/* <UseFetchHookTest /> */}
 
+        {/* Use OnClick Outside Hook Test */}
+        {/* <UseOnClickOutsideTest /> */}
+
+        {/* Use Window Resize Hook Test */}
+        <UseWindowResizeTest />
     </div>
   );
 }
